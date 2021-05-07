@@ -1,3 +1,5 @@
+
+module MoziFENode
 export Node
 
 mutable struct Node
@@ -26,4 +28,4 @@ end
 integrateK(node::Node)=Array(Diagonal((node.T)'*node.spring))
 integrateM(node::Node)=Array(Diagonal((node.T)'*node.mass))
 
-# end
+end
