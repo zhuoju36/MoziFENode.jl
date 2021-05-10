@@ -1,6 +1,7 @@
 
 module MoziFENode
 export Node
+export integrateK,integrateM
 
 mutable struct Node
     id::String
