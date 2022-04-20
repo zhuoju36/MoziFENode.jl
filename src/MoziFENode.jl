@@ -1,5 +1,6 @@
 
 module MoziFENode
+using MoziCSys:CSys
 export Node
 
 mutable struct Node
