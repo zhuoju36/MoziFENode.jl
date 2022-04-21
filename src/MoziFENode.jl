@@ -2,6 +2,7 @@
 module MoziFENode
 using MoziCSys:CSys
 export Node
+export integrateK,integrateM
 
 mutable struct Node
     id::String
