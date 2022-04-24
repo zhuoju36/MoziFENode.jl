@@ -14,7 +14,10 @@ mutable struct Node
     mass::Vector{Float64}
 end
 
-function Node(id,hid::Int,x::Float64,y::Float64,z::Float64)
+function Node(id,hid::Int,x,y,z)
+    x=Float64(x)
+    y=Float64(y)
+    z=Float64(z)
     o=[x,y,z]
     pt1=[x,y,z]+[1,0,0]
     pt2=[x,y,z]+[0,1,0]
