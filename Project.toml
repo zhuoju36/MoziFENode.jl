@@ -8,5 +8,6 @@ MoziCSys = "6caa8793-38a2-477f-bdca-0f7426d014a4"
 MoziFESparse = "38b32a81-66d9-4e97-ab3b-d94dedfcc576"
 
 [compat]
+julia = "^1.6"
 MoziCSys = "^0.1.0"
 MoziFESparse = "^0.1.0"
