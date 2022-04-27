@@ -1,7 +1,7 @@
 name = "MoziFENode"
 uuid = "bc5e1aea-ccfc-42b4-a639-d0a9cb9ca5ed"
 authors = ["HZJ <zhuoju36@hotmail.com>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 MoziCSys = "6caa8793-38a2-477f-bdca-0f7426d014a4"
